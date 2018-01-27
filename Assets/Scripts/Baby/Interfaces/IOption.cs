@@ -2,6 +2,6 @@
 {
     public interface IOption
     {
-        
+        BabyProperty GetRandomProperty();
     }
 }

@@ -20,6 +20,10 @@ public class BodyOption : MonoBehaviour, IOption
 
     public BabyProperty GetRandomProperty()
     {
-        return BodyTypes[Random.Range(0, BodyTypes.Count)]; 
+        if (BodyTypes.Count > 1)
+            return BodyTypes[Random.Range(0, BodyTypes.Count)];
+        else
+            return BodyTypes[0]; 
+
     }
 }

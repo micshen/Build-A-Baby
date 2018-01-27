@@ -20,7 +20,12 @@ public class Order : MonoBehaviour {
 
     public void Hide()
     {
-        gameObject.SetActive(false);
+        gameObject.SetActive(false);       
+    }
+
+    public void DestroyOrder()
+    {
+        Destroy(gameObject); 
     }
 
     public void Show()
@@ -38,7 +43,6 @@ public class Order : MonoBehaviour {
     public IEnumerator DoOrderTimer(float seconds)
     {
         yield return new WaitForSeconds(seconds);
-        Debug.Log("hiding order object"); 
-        Hide(); 
+        DestroyOrder(); 
     }
 }
