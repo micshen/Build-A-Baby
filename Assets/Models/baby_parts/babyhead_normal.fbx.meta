@@ -6,10 +6,27 @@ ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: pCylinder15
+    100004: polySurface3
+    100006: pSphere12
+    100008: pSphere2
+    100010: transform22
+    100012: transform23
+    100014: transform24
     400000: //RootNode
+    400002: pCylinder15
+    400004: polySurface3
+    400006: pSphere12
+    400008: pSphere2
+    400010: transform22
+    400012: transform23
+    400014: transform24
     2300000: //RootNode
+    2300002: polySurface3
     3300000: //RootNode
+    3300002: polySurface3
     4300000: pSphere2
+    4300002: polySurface3
     9500000: //RootNode
   externalObjects:
   - first:
