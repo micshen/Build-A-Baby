@@ -16,14 +16,14 @@ public class Timer : MonoBehaviour {
 	public void TimerComplete()
 	{
 
-		Debug.Log("Time's up!")
+		Debug.Log("Time's up!");
 
 	}
 
 	// Update is called once per frame
 	void Update () {
-		Seconds -= Time.deltaTime;
-		if(Seconds <=0){
+		seconds -= Time.deltaTime;
+		if(seconds <=0){
 			TimerComplete();
 		}
 	}
