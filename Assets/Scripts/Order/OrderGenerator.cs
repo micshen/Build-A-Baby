@@ -13,17 +13,19 @@ public class OrderGenerator : MonoBehaviour
     //put orders in child of OrderGenerator Canvas Object
     public IEnumerable<Order> Orders;
 
-
+    private BodyOption bodyOption; 
     // Use this for initialization
     void Start()
     {
-       // timer = gameObject.AddComponent<Timer>();
-        
         Orders = GetComponentsInChildren<Order>();
+
+        bodyOption = GetComponent<BodyOption>();
 
         foreach (var order in Orders)
         {
+            order.BabyProperties.Add(bodyOption.GetRandomProperty());
             order.Hide(); 
+            
         }
 
         StartCoroutine(ManageOrders()); 
@@ -48,4 +50,6 @@ public class OrderGenerator : MonoBehaviour
     {
         order.Show(); 
     }
+
+
 }

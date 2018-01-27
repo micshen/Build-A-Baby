@@ -1,11 +1,12 @@
 ﻿using Baby;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Order : MonoBehaviour {
 
-    public List<BabyProperty> BabyProperties;
+    public List<BabyProperty> BabyProperties = new List<BabyProperty>();
 
     // Use this for initialization
     void Start() {
@@ -24,6 +25,13 @@ public class Order : MonoBehaviour {
 
     public void Show()
     {
-        gameObject.SetActive(true); 
+        gameObject.SetActive(true);
+
+        foreach (var babyProperty in BabyProperties)
+        {
+            var displayTextObject = Instantiate(Resources.Load<TextMeshProUGUI>("UI/OrderText"));
+            displayTextObject.transform.SetParent(transform, false);
+            displayTextObject.SetText(babyProperty.PropertyName);
+        }
     }
 }
