@@ -8,9 +8,12 @@ namespace Baby
 	{
 		public GameObject BabyPropertyGameObject;
 
-		public bool Attached;
+		public bool IsAttached;
 
-		public IOption Option; 
+		public IOption Option;
+
+		public BabyEvents BabyEvents = new BabyEvents();
+
 
 	}
 }
