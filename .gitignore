@@ -32,3 +32,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+DOCUMENTATION.pdf.meta
+README.pdf
+README.pdf.meta
+001_CameraRig_VRPlayArea.unity
+Assets/Plugins/VRTK/Examples
