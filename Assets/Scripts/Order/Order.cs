@@ -34,4 +34,11 @@ public class Order : MonoBehaviour {
             displayTextObject.SetText(babyProperty.PropertyName);
         }
     }
+
+    public IEnumerator DoOrderTimer(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        Debug.Log("hiding order object"); 
+        Hide(); 
+    }
 }

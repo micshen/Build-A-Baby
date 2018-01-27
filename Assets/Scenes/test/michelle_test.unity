@@ -747,8 +747,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartOrderDelay: 0
-  TimePerOrder: 0
-  OrderInterval: 20
+  TimePerOrder: 60
+  OrderInterval: 30
 --- !u!114 &1485515092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -895,7 +895,7 @@ Prefab:
     - target: {fileID: 224070082254812570, guid: c4a5a0fbb67ea504b87fc6a43a5c5c31,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.0000019073486
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224070082254812570, guid: c4a5a0fbb67ea504b87fc6a43a5c5c31,
         type: 2}

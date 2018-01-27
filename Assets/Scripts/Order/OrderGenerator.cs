@@ -41,7 +41,8 @@ public class OrderGenerator : MonoBehaviour
     {
         foreach (var order in Orders)
         {
-            DisplayOrder(order); 
+            DisplayOrder(order);
+            StartCoroutine(order.DoOrderTimer(TimePerOrder)); 
             yield return new WaitForSeconds(OrderInterval);
         }
     }
