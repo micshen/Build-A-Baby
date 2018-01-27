@@ -1,15 +1,24 @@
 fileFormatVersion: 2
-guid: dc95c62234beffe48a5b12033c5f47ca
-timeCreated: 1517067633
+guid: 096ab9672a25c1a4594ff7ed653e8b8c
+timeCreated: 1517090080
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: polySurface6
+    100004: pSphere13
+    100006: pSphere18
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: pCube74
+    400002: polySurface6
+    400004: pSphere13
+    400006: pSphere18
+    2300000: polySurface6
+    2300002: pSphere18
+    3300000: polySurface6
+    3300002: pSphere18
+    4300000: polySurface6
+    4300002: pSphere18
     9500000: //RootNode
   externalObjects:
   - first:
