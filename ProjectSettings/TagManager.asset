@@ -12,6 +12,12 @@ TagManager:
   - hair
   - teeth
   - eye
+  - shot
+  - paint
+  - paintblue
+  - paintgold
+  - paintgreen
+  - paintpurple
   layers:
   - Default
   - TransparentFX
