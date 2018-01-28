@@ -31,7 +31,7 @@ GameObject:
   - component: {fileID: 114052273269192996}
   - component: {fileID: 114592903478530728}
   - component: {fileID: 114004794563155748}
-
+  - component: {fileID: 114465097303663938}
   m_Layer: 10
   m_Name: babybody_deformed
   m_TagString: body
@@ -1057,7 +1057,7 @@ MonoBehaviour:
   usingState: 0
 --- !u!114 &114465097303663938
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1948313071552080}

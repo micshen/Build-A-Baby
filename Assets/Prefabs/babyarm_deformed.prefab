@@ -31,6 +31,7 @@ GameObject:
   - component: {fileID: 114379720650757242}
   - component: {fileID: 114224934305253388}
   - component: {fileID: 114946826450484860}
+  - component: {fileID: 114646642425327942}
   m_Layer: 10
   m_Name: babyarm_deformed
   m_TagString: arm
@@ -246,7 +247,7 @@ MonoBehaviour:
   onGrabCollisionDelay: 0
 --- !u!114 &114646642425327942
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1241997675258340}

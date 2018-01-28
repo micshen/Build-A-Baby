@@ -31,6 +31,7 @@ GameObject:
   - component: {fileID: 114259562612471766}
   - component: {fileID: 114886368039742382}
   - component: {fileID: 114487040407784924}
+  - component: {fileID: 114089281891540910}
   m_Layer: 10
   m_Name: babybody_skinny
   m_TagString: body
@@ -138,7 +139,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114089281891540910
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1551396691318200}

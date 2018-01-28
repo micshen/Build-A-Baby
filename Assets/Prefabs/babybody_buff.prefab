@@ -31,6 +31,7 @@ GameObject:
   - component: {fileID: 114410992144228982}
   - component: {fileID: 114612699690271972}
   - component: {fileID: 114401882457590868}
+  - component: {fileID: 114964321993383424}
   m_Layer: 10
   m_Name: babybody_buff
   m_TagString: body
@@ -1096,7 +1097,7 @@ MonoBehaviour:
   usingState: 0
 --- !u!114 &114964321993383424
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1336723689079608}

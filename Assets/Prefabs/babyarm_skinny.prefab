@@ -31,6 +31,7 @@ GameObject:
   - component: {fileID: 114198249462085696}
   - component: {fileID: 114465313120967252}
   - component: {fileID: 114313520226213960}
+  - component: {fileID: 114978494827116010}
   m_Layer: 10
   m_Name: babyarm_skinny
   m_TagString: arm
@@ -1098,7 +1099,7 @@ MonoBehaviour:
   hideDelayOnUse: 0
 --- !u!114 &114978494827116010
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1339400780425714}

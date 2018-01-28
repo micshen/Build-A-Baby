@@ -31,6 +31,7 @@ GameObject:
   - component: {fileID: 114011587885621304}
   - component: {fileID: 114479985118080224}
   - component: {fileID: 114112093528309508}
+  - component: {fileID: 114635325248315718}
   m_Layer: 10
   m_Name: babyleg_normal
   m_TagString: leg
@@ -1098,7 +1099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &114635325248315718
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1512340273375740}
