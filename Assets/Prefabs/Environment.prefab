@@ -506,7 +506,7 @@ GameObject:
   - component: {fileID: 4497245039378526}
   - component: {fileID: 108543113339903268}
   m_Layer: 0
-  m_Name: Spotlight
+  m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -558,8 +558,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1172358550375838}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.69, y: -1.2486608, z: -0.94471174}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.69, y: -1.165, z: -0.93799996}
+  m_LocalScale: {x: 1, y: 1.1567199, z: 1}
   m_Children: []
   m_Father: {fileID: 4896844303064360}
   m_RootOrder: 6
@@ -787,8 +787,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1960414776674562}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.48111558, y: -1.2486608, z: -0.29871178}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.48111558, y: -1.165, z: -0.292}
+  m_LocalScale: {x: 1, y: 1.1567199, z: 1.0000014}
   m_Children: []
   m_Father: {fileID: 4896844303064360}
   m_RootOrder: 5
@@ -2033,7 +2033,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.9955375, g: 1, b: 0.9191176, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.7
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -2057,7 +2057,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_ShadowRadius: 0
+  m_ShadowRadius: 1
   m_ShadowAngle: 0
 --- !u!108 &108543113339903268
 Light:
@@ -2069,7 +2069,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.9955375, g: 1, b: 0.9191176, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.7
   m_Range: 10
   m_SpotAngle: 103.1
   m_CookieSize: 10
@@ -2093,7 +2093,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_ShadowRadius: 0
+  m_ShadowRadius: 1
   m_ShadowAngle: 0
 --- !u!108 &108573912017569606
 Light:
@@ -2105,7 +2105,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 0.9955375, g: 1, b: 0.9191176, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.7
   m_Range: 10
   m_SpotAngle: 103.1
   m_CookieSize: 10
@@ -2129,7 +2129,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_ShadowRadius: 0
+  m_ShadowRadius: 1
   m_ShadowAngle: 0
 --- !u!108 &108694863275059748
 Light:
@@ -2177,12 +2177,12 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.9955375, g: 1, b: 0.9191176, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.7
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2201,7 +2201,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_ShadowRadius: 0
+  m_ShadowRadius: 1
   m_ShadowAngle: 0
 --- !u!220 &220018830721248366
 LightProbeGroup:
