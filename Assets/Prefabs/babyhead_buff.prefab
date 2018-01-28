@@ -30,6 +30,7 @@ GameObject:
   - component: {fileID: 114718379690087530}
   - component: {fileID: 114928381778202586}
   - component: {fileID: 114723683017149094}
+  - component: {fileID: 114074718155337696}
   m_Layer: 10
   m_Name: babyhead_buff
   m_TagString: head
@@ -122,7 +123,7 @@ MeshCollider:
   m_Mesh: {fileID: 4300002, guid: 8276c7c9c98bbdb4987f01e995f06d73, type: 3}
 --- !u!114 &114074718155337696
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1204083489777742}

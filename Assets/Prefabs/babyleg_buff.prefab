@@ -31,6 +31,7 @@ GameObject:
   - component: {fileID: 114139448535912698}
   - component: {fileID: 114306260261436684}
   - component: {fileID: 114400734496735308}
+  - component: {fileID: 114240998637566958}
   m_Layer: 10
   m_Name: babyleg_buff
   m_TagString: leg
@@ -201,7 +202,7 @@ MonoBehaviour:
       Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &114240998637566958
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1235857288549320}

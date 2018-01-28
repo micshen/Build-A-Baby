@@ -31,6 +31,7 @@ GameObject:
   - component: {fileID: 114182822997268546}
   - component: {fileID: 114962864601725682}
   - component: {fileID: 114342105035493232}
+  - component: {fileID: 114927146338381706}
   m_Layer: 10
   m_Name: babyarm_normal
   m_TagString: arm
@@ -1081,7 +1082,7 @@ MonoBehaviour:
   usingState: 0
 --- !u!114 &114927146338381706
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1518697874570038}

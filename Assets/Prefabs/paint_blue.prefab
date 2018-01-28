@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 64846291097533348}
   m_Layer: 0
   m_Name: pCube109
-  m_TagString: Untagged
+  m_TagString: paintblue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 64606552947881514}
   m_Layer: 0
   m_Name: pCube110
-  m_TagString: Untagged
+  m_TagString: paintblue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 64346917340521222}
   m_Layer: 0
   m_Name: pCube114
-  m_TagString: Untagged
+  m_TagString: paintblue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

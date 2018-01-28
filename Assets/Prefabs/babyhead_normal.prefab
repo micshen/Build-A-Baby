@@ -30,6 +30,7 @@ GameObject:
   - component: {fileID: 114831867021057350}
   - component: {fileID: 114495429928825050}
   - component: {fileID: 114592046535541906}
+  - component: {fileID: 114250989473275544}
   m_Layer: 10
   m_Name: babyhead_normal
   m_TagString: head
@@ -150,7 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &114250989473275544
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1223058615867770}
