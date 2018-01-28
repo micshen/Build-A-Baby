@@ -30,6 +30,7 @@ GameObject:
   - component: {fileID: 114798275239305626}
   - component: {fileID: 114139448535912698}
   - component: {fileID: 114306260261436684}
+  - component: {fileID: 114240998637566958}
   m_Layer: 10
   m_Name: babyleg_buff
   m_TagString: leg
@@ -198,6 +199,20 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
       Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &114240998637566958
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1235857288549320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c4e4042bd48442694d5e36918f37a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PropertyName: Buff Body
+  IsAttached: 0
+  DisplayText: {fileID: 0}
 --- !u!114 &114306260261436684
 MonoBehaviour:
   m_ObjectHideFlags: 1

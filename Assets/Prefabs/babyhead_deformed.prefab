@@ -29,6 +29,7 @@ GameObject:
   - component: {fileID: 114020279157310492}
   - component: {fileID: 114292151756583536}
   - component: {fileID: 114083282851202560}
+  - component: {fileID: 114235266615757512}
   m_Layer: 10
   m_Name: babyhead_deformed
   m_TagString: head
@@ -176,6 +177,20 @@ MonoBehaviour:
   throwVelocityWithAttachDistance: 0
   throwMultiplier: 1
   onGrabCollisionDelay: 0
+--- !u!114 &114235266615757512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1632735149376032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c4e4042bd48442694d5e36918f37a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PropertyName: Deformed Body
+  IsAttached: 0
+  DisplayText: {fileID: 0}
 --- !u!114 &114243498028339670
 MonoBehaviour:
   m_ObjectHideFlags: 1

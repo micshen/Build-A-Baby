@@ -29,6 +29,7 @@ GameObject:
   - component: {fileID: 114220150860399336}
   - component: {fileID: 114718379690087530}
   - component: {fileID: 114928381778202586}
+  - component: {fileID: 114074718155337696}
   m_Layer: 10
   m_Name: babyhead_buff
   m_TagString: head
@@ -119,6 +120,20 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 8276c7c9c98bbdb4987f01e995f06d73, type: 3}
+--- !u!114 &114074718155337696
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204083489777742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c4e4042bd48442694d5e36918f37a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PropertyName: Fat Body
+  IsAttached: 0
+  DisplayText: {fileID: 0}
 --- !u!114 &114220150860399336
 MonoBehaviour:
   m_ObjectHideFlags: 1
