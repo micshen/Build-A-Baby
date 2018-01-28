@@ -1,4 +1,5 @@
 ﻿using Baby;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -28,7 +29,16 @@ public class Order : MonoBehaviour {
 
     public void DestroyOrder()
     {
-        Destroy(gameObject); 
+        try
+        {
+            if (gameObject != null)
+                Destroy(gameObject);
+        }
+        catch (Exception ex)
+        {
+
+        }
+    
     }
 
     public void Show()
@@ -47,6 +57,7 @@ public class Order : MonoBehaviour {
     public IEnumerator DoOrderTimer(float seconds)
     {
         yield return new WaitForSeconds(seconds);
-        DestroyOrder(); 
+        if(gameObject != null)
+            DestroyOrder(); 
     }
 }

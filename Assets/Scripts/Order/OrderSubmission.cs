@@ -42,6 +42,7 @@ public class OrderSubmission : MonoBehaviour {
                             Score += 100; 
                         }
 
+                        orderGenerator.Orders[i].DestroyOrder(); 
                     }
                 }
             }
