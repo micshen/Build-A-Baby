@@ -3,19 +3,47 @@ using System.Collections;
 using System.Collections.Generic;
 using Baby;
 using UnityEngine;
+using VRTK;
 
 public class OrderSubmission : MonoBehaviour {
 
     private Baby.Baby baby;
     private OrderGenerator orderGenerator;
 
-    public int Score; 
+    public int Score;
+
+    public VRTK_SnapDropZone[] SnapZones;
+
+    public int SnappedObjectCount; 
 
 	// Use this for initialization
 	void Awake()
     {
         orderGenerator = FindObjectOfType<OrderGenerator>();
+
+       SnapZones = FindObjectsOfType<VRTK_SnapDropZone>();
+
+        foreach (var snapZone in SnapZones)
+        {
+            snapZone.ObjectSnappedToDropZone += GetSnappedObjects;
+        }
 	}
+
+    private void GetSnappedObjects(object sender, SnapDropZoneEventArgs e)
+    {
+        SnappedObjectCount++;   
+    }
+
+    public void OnSubmit()
+    {
+        foreach (var snapZone in SnapZones)
+        {
+            var snappedObj = snapZone.GetCurrentSnappedObject();
+            Destroy(snappedObj); 
+        }
+    }
+
+
 
     //this will most likely have to be some sort of collider check, to get this baby 
     public Baby.Baby GetActiveBaby(Baby.Baby baby)

@@ -382,6 +382,15 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114940848928040724, guid: 8449945027553bd4b94ce33c9269ed0f,
+        type: 2}
+      propertyPath: displayDropZoneInEditor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565402777745474, guid: 8449945027553bd4b94ce33c9269ed0f, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8449945027553bd4b94ce33c9269ed0f, type: 2}
   m_IsPrefabParent: 0
@@ -1653,6 +1662,12 @@ Transform:
   m_PrefabParentObject: {fileID: 4974039383983650, guid: 067332c9ed9c6604688a1c584700f19e,
     type: 2}
   m_PrefabInternal: {fileID: 646584839}
+--- !u!114 &653006145 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114866338226932110, guid: c633769ccd3b5744aafc14e4dc368de1,
+    type: 2}
+  m_PrefabInternal: {fileID: 2001294228}
+  m_Script: {fileID: 11500000, guid: 1ec0aeaf1228cd840bc81c4565f850e2, type: 3}
 --- !u!4 &722178923 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4458986175203632, guid: 232ea48e0b55c3340aa7669191f9d09c,
@@ -2114,7 +2129,7 @@ GameObject:
   - component: {fileID: 945489966}
   - component: {fileID: 945489965}
   m_Layer: 0
-  m_Name: button (8)
+  m_Name: SubmitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3181,6 +3196,17 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 945489965}
           m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 653006145}
+          m_MethodName: OnSubmit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

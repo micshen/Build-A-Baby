@@ -12,6 +12,7 @@ TagManager:
   - hair
   - teeth
   - eye
+  - snap
   layers:
   - Default
   - TransparentFX
