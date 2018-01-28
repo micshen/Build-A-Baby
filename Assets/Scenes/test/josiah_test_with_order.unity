@@ -706,22 +706,22 @@ Prefab:
     - target: {fileID: 114315847703561870, guid: cb246851069a9ff44968ccaa5af3a3f4,
         type: 2}
       propertyPath: TimePerOrder
-      value: 10
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 114315847703561870, guid: cb246851069a9ff44968ccaa5af3a3f4,
         type: 2}
       propertyPath: OrderInterval
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 114315847703561870, guid: cb246851069a9ff44968ccaa5af3a3f4,
         type: 2}
       propertyPath: PropertiesPerLevel
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114315847703561870, guid: cb246851069a9ff44968ccaa5af3a3f4,
         type: 2}
       propertyPath: PropertiesPerLevel
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb246851069a9ff44968ccaa5af3a3f4, type: 2}
