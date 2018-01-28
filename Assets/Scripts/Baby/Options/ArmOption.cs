@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using Baby.Interfaces;
 using Baby;
 
-public class BodyOption : MonoBehaviour, IOption
+public class ArmOption : MonoBehaviour, IOption
 {
-    public IList<BabyProperty> BodyTypes; 
+    public IList<BabyProperty> ArmTypes;
 
     private void Awake()
     {
-        BodyTypes = LoadBabyProperties("Body/");
+        ArmTypes = LoadBabyProperties("Arm/");
     }
 
     private IList<BabyProperty> LoadBabyProperties(string path)
@@ -20,10 +20,10 @@ public class BodyOption : MonoBehaviour, IOption
 
     public BabyProperty GetRandomProperty()
     {
-        if (BodyTypes.Count > 1)
-            return BodyTypes[Random.Range(0, BodyTypes.Count)];
+        if (ArmTypes.Count > 1)
+            return ArmTypes[Random.Range(0, ArmTypes.Count)];
         else
-            return BodyTypes[0]; 
+            return ArmTypes[0]; 
 
     }
 }
