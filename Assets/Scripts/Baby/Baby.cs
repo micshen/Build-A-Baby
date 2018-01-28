@@ -12,10 +12,14 @@ namespace Baby
 
         public int TotalScore;
 
+        public delegate void SubmitBabyHandler(List<BabyProperty> babyProperties);
+
+        public event SubmitBabyHandler OnSubmitBaby;
 
         public void Start()
         {
-            BabyProperties = new List<BabyProperty>();            
+            BabyProperties = new List<BabyProperty>();  
+            
         }
 
 
@@ -37,6 +41,11 @@ namespace Baby
         {
             BabyProperties.Remove(babyProperty);
             babyProperty.IsAttached = false; 
+        }
+
+        protected void RaiseSubmitEvent()
+        {
+            if (OnSubmitBaby != null) OnSubmitBaby(BabyProperties); 
         }
 
     }

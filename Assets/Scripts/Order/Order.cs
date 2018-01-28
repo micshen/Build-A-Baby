@@ -8,6 +8,8 @@ public class Order : MonoBehaviour {
 
     public List<BabyProperty> BabyProperties = new List<BabyProperty>();
 
+    public bool IsActive; 
+
     // Use this for initialization
     void Start() {
 
@@ -20,6 +22,7 @@ public class Order : MonoBehaviour {
 
     public void Hide()
     {
+        IsActive = false; 
         gameObject.SetActive(false);       
     }
 
@@ -31,6 +34,7 @@ public class Order : MonoBehaviour {
     public void Show()
     {
         gameObject.SetActive(true);
+        IsActive = true; 
 
         foreach (var babyProperty in BabyProperties)
         {

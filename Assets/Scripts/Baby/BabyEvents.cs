@@ -1,5 +1,6 @@
 ﻿using System;
 using JetBrains.Annotations;
+using System.Collections.Generic;
 
 namespace Baby
 {
@@ -12,9 +13,14 @@ namespace Baby
 
         public delegate void DetachHandler(BabyProperty babyProperty);
 
-        public event DetachHandler OnDetach; 
+        public event DetachHandler OnDetach;
+
+
+
+       
+
     }
 
-   
+
 
 }

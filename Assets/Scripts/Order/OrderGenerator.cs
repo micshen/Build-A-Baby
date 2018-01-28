@@ -16,7 +16,7 @@ public class OrderGenerator : MonoBehaviour
 
     public IList<Order> Orders;
 
-    private IList<IOption> optionsForRound;
+    public IList<IOption> OptionsForRound;
 
     private IList<IOption> totalOptions; 
     // Use this for initialization
@@ -81,11 +81,11 @@ public class OrderGenerator : MonoBehaviour
 
     private void GetRoundOptions()
     {
-        optionsForRound = new List<IOption>();
+        OptionsForRound = new List<IOption>();
 
         for (int i = 0; i < PropertiesPerLevel; i++)
         {
-            optionsForRound.Add(totalOptions[i]);
+            OptionsForRound.Add(totalOptions[i]);
         }
     }
 
@@ -96,7 +96,8 @@ public class OrderGenerator : MonoBehaviour
         for (int i = 0; i < OrdersPerRound; i++)
         {
             var order = Instantiate(Resources.Load<Order>("UI/OrderPanel"));
-            foreach (var option in optionsForRound)
+            order.name = "Order " + i; 
+            foreach (var option in OptionsForRound)
             {
                 order.gameObject.transform.SetParent(transform, false);
                 order.BabyProperties.Add(option.GetRandomProperty());
