@@ -30,6 +30,7 @@ GameObject:
   - component: {fileID: 114303096516771514}
   - component: {fileID: 114912821480212728}
   - component: {fileID: 114714522291726488}
+  - component: {fileID: 114937195251141676}
   m_Layer: 0
   m_Name: baby_teeth_fullset
   m_TagString: teeth
@@ -294,3 +295,17 @@ MonoBehaviour:
   strengthOnUse: 0
   durationOnUse: 0
   intervalOnUse: 0.05
+--- !u!114 &114937195251141676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1807968439060794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c4e4042bd48442694d5e36918f37a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PropertyName: Fullset Teeth
+  IsAttached: 0
+  DisplayText: {fileID: 0}

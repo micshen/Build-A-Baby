@@ -30,6 +30,7 @@ GameObject:
   - component: {fileID: 114106323258446752}
   - component: {fileID: 114811883240062900}
   - component: {fileID: 114276673574815108}
+  - component: {fileID: 114300914108991050}
   m_Layer: 10
   m_Name: babyleg_fat
   m_TagString: leg
@@ -194,6 +195,20 @@ MonoBehaviour:
   hideDelayOnGrab: 0
   hideControllerOnUse: 0
   hideDelayOnUse: 0
+--- !u!114 &114300914108991050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1386736606432898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c4e4042bd48442694d5e36918f37a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PropertyName: Fat Body
+  IsAttached: 0
+  DisplayText: {fileID: 0}
 --- !u!114 &114488793520805384
 MonoBehaviour:
   m_ObjectHideFlags: 1

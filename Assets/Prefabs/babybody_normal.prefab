@@ -30,6 +30,7 @@ GameObject:
   - component: {fileID: 114752251660282768}
   - component: {fileID: 114553084834133972}
   - component: {fileID: 114428502837453162}
+  - component: {fileID: 114980809976273466}
   m_Layer: 10
   m_Name: babybody_normal
   m_TagString: body
@@ -294,3 +295,17 @@ MonoBehaviour:
   strengthOnUse: 0
   durationOnUse: 0
   intervalOnUse: 0.05
+--- !u!114 &114980809976273466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1387824480609128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c4e4042bd48442694d5e36918f37a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PropertyName: Normal Body
+  IsAttached: 0
+  DisplayText: {fileID: 0}

@@ -30,6 +30,7 @@ GameObject:
   - component: {fileID: 114132239144601302}
   - component: {fileID: 114863399460705444}
   - component: {fileID: 114005995252573676}
+  - component: {fileID: 114182655205076888}
   m_Layer: 10
   m_Name: babybody_fat
   m_TagString: body
@@ -192,6 +193,20 @@ MonoBehaviour:
   throwVelocityWithAttachDistance: 0
   throwMultiplier: 1
   onGrabCollisionDelay: 0
+--- !u!114 &114182655205076888
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1336252054495992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c4e4042bd48442694d5e36918f37a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PropertyName: Fat Body
+  IsAttached: 0
+  DisplayText: {fileID: 0}
 --- !u!114 &114575088978529756
 MonoBehaviour:
   m_ObjectHideFlags: 1

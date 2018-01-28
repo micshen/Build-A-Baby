@@ -36,7 +36,7 @@ public class OrderSubmission : MonoBehaviour {
                     foreach (var babyProperty in babyProperties)
                     {
                         Debug.Log("baby property name: " + babyProperty.PropertyName + " orderBabyProperty: " + orderBabyProperty.PropertyName); 
-                        if (orderBabyProperty.PropertyName == babyProperty.PropertyName)
+                        if (orderBabyProperty.PropertyName.Contains(babyProperty.PropertyName))
                         {
                             Score += 100; 
                         }
