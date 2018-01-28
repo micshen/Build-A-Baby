@@ -15,7 +15,6 @@ public class OrderSubmission : MonoBehaviour {
 	void Awake()
     {
         orderGenerator = FindObjectOfType<OrderGenerator>();
-        GetActiveBaby(FindObjectOfType<MockBaby>()); 
 	}
 
     //this will most likely have to be some sort of collider check, to get this baby 
@@ -42,6 +41,7 @@ public class OrderSubmission : MonoBehaviour {
                             Score += 100; 
                         }
 
+                        orderGenerator.Orders[i].DestroyOrder(); 
                     }
                 }
             }
