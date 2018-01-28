@@ -31,6 +31,7 @@ GameObject:
   - component: {fileID: 114863399460705444}
   - component: {fileID: 114005995252573676}
   - component: {fileID: 114258696137183974}
+  - component: {fileID: 114418236972540196}
   m_Layer: 10
   m_Name: babybody_fat
   m_TagString: body
@@ -991,7 +992,20 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
+--- !u!114 &114418236972540196
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1336252054495992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 845409985, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114258696137183974}
 --- !u!114 &114575088978529756
 MonoBehaviour:
   m_ObjectHideFlags: 1

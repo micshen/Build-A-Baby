@@ -32,6 +32,7 @@ GameObject:
   - component: {fileID: 114224934305253388}
   - component: {fileID: 114946826450484860}
   - component: {fileID: 114646642425327942}
+  - component: {fileID: 114258392501398066}
   m_Layer: 10
   m_Name: babyarm_deformed
   m_TagString: arm
@@ -156,6 +157,19 @@ MonoBehaviour:
   hideDelayOnGrab: 0
   hideControllerOnUse: 0
   hideDelayOnUse: 0
+--- !u!114 &114258392501398066
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1241997675258340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 845409985, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114946826450484860}
 --- !u!114 &114296377363049124
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1110,4 +1124,4 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1

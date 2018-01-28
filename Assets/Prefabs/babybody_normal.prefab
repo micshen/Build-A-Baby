@@ -32,6 +32,7 @@ GameObject:
   - component: {fileID: 114428502837453162}
   - component: {fileID: 114391278763528704}
   - component: {fileID: 114980809976273466}
+  - component: {fileID: 114573606875296108}
   m_Layer: 10
   m_Name: babybody_normal
   m_TagString: body
@@ -982,7 +983,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114428502837453162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1061,6 +1062,19 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
       Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &114573606875296108
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1387824480609128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 845409985, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114391278763528704}
 --- !u!114 &114615169625929196
 MonoBehaviour:
   m_ObjectHideFlags: 1

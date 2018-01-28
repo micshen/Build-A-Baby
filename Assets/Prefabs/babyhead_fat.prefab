@@ -31,6 +31,7 @@ GameObject:
   - component: {fileID: 114249882538302014}
   - component: {fileID: 114800515195626948}
   - component: {fileID: 114974371377814294}
+  - component: {fileID: 114165277425508200}
   m_Layer: 10
   m_Name: babyhead_fat
   m_TagString: head
@@ -121,6 +122,19 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 8e07c902d38325a4eb2cfd46c5a2ab54, type: 3}
+--- !u!114 &114165277425508200
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1466084386181392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 845409985, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114800515195626948}
 --- !u!114 &114200546235502060
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1037,7 +1051,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114821360320941374
 MonoBehaviour:
   m_ObjectHideFlags: 1

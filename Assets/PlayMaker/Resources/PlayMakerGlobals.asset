@@ -33,3 +33,5 @@ MonoBehaviour:
   events:
   - push
   - rotate
+  - finish
+  - done

@@ -31,6 +31,7 @@ GameObject:
   - component: {fileID: 114961826820832864}
   - component: {fileID: 114223480521685824}
   - component: {fileID: 114709014268321560}
+  - component: {fileID: 114859292830666466}
   m_Layer: 10
   m_Name: babyleg_skinny
   m_TagString: leg
@@ -981,7 +982,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114767998672924418
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1012,6 +1013,19 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
+--- !u!114 &114859292830666466
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338805827862312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 845409985, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114709014268321560}
 --- !u!114 &114891989639744732
 MonoBehaviour:
   m_ObjectHideFlags: 1

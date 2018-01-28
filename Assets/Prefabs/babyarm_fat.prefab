@@ -32,6 +32,7 @@ GameObject:
   - component: {fileID: 114185117588545454}
   - component: {fileID: 114087651102610860}
   - component: {fileID: 114006608273504208}
+  - component: {fileID: 114704170208217130}
   m_Layer: 10
   m_Name: babyarm_fat
   m_TagString: arm
@@ -962,7 +963,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114155431218621514
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1020,6 +1021,19 @@ MonoBehaviour:
   throwVelocityWithAttachDistance: 0
   throwMultiplier: 1
   onGrabCollisionDelay: 0
+--- !u!114 &114704170208217130
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122401717060806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 845409985, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114087651102610860}
 --- !u!114 &114796505032929076
 MonoBehaviour:
   m_ObjectHideFlags: 1

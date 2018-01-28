@@ -31,6 +31,7 @@ GameObject:
   - component: {fileID: 114588229930653696}
   - component: {fileID: 114750012263484324}
   - component: {fileID: 114449315350725008}
+  - component: {fileID: 114222875207228422}
   m_Layer: 10
   m_Name: babyarm_buff
   m_TagString: arm
@@ -138,6 +139,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114222875207228422
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1522377117660558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 845409985, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114449315350725008}
 --- !u!114 &114255919105350608
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -150,7 +164,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114449315350725008
-
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -948,7 +961,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114588229930653696
 MonoBehaviour:
   m_ObjectHideFlags: 1
