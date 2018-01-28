@@ -28,7 +28,8 @@ GameObject:
   - component: {fileID: 114243498028339670}
   - component: {fileID: 114020279157310492}
   - component: {fileID: 114292151756583536}
-  m_Layer: 0
+  - component: {fileID: 114083282851202560}
+  m_Layer: 10
   m_Name: babyhead_deformed
   m_TagString: head
   m_Icon: {fileID: 0}
@@ -141,6 +142,23 @@ MonoBehaviour:
   strengthOnUse: 0
   durationOnUse: 0
   intervalOnUse: 0.05
+--- !u!114 &114083282851202560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1632735149376032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817f15b2a0426974bb4e88ef34aa22b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hideControllerOnTouch: 0
+  hideDelayOnTouch: 0
+  hideControllerOnGrab: 1
+  hideDelayOnGrab: 0
+  hideControllerOnUse: 0
+  hideDelayOnUse: 0
 --- !u!114 &114130306391992540
 MonoBehaviour:
   m_ObjectHideFlags: 1

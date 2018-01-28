@@ -30,7 +30,8 @@ GameObject:
   - component: {fileID: 114994435679732580}
   - component: {fileID: 114487833512202244}
   - component: {fileID: 114817341190663924}
-  m_Layer: 0
+  - component: {fileID: 114391928493654786}
+  m_Layer: 10
   m_Name: babyleg_deformed
   m_TagString: leg
   m_Icon: {fileID: 0}
@@ -44,7 +45,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1388683148403098}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7141212, y: 1.3949999, z: -0.4058277}
+  m_LocalPosition: {x: 0.5543237, y: 1.41, z: -0.18670583}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -184,6 +185,23 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
+--- !u!114 &114391928493654786
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1388683148403098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817f15b2a0426974bb4e88ef34aa22b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hideControllerOnTouch: 0
+  hideDelayOnTouch: 0
+  hideControllerOnGrab: 1
+  hideDelayOnGrab: 0
+  hideControllerOnUse: 0
+  hideDelayOnUse: 0
 --- !u!114 &114487833512202244
 MonoBehaviour:
   m_ObjectHideFlags: 1

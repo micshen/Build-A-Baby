@@ -29,7 +29,8 @@ GameObject:
   - component: {fileID: 114523861643612958}
   - component: {fileID: 114305450778289150}
   - component: {fileID: 114410992144228982}
-  m_Layer: 0
+  - component: {fileID: 114612699690271972}
+  m_Layer: 10
   m_Name: babybody_buff
   m_TagString: body
   m_Icon: {fileID: 0}
@@ -246,6 +247,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18055ba762aa3994f9c10208cd088bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114612699690271972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1336723689079608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817f15b2a0426974bb4e88ef34aa22b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hideControllerOnTouch: 0
+  hideDelayOnTouch: 0
+  hideControllerOnGrab: 1
+  hideDelayOnGrab: 0
+  hideControllerOnUse: 0
+  hideDelayOnUse: 0
 --- !u!114 &114836745782012596
 MonoBehaviour:
   m_ObjectHideFlags: 1

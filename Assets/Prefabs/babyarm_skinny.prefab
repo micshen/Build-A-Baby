@@ -29,7 +29,8 @@ GameObject:
   - component: {fileID: 114286575880586122}
   - component: {fileID: 114413439780968644}
   - component: {fileID: 114198249462085696}
-  m_Layer: 0
+  - component: {fileID: 114465313120967252}
+  m_Layer: 10
   m_Name: babyarm_skinny
   m_TagString: arm
   m_Icon: {fileID: 0}
@@ -278,3 +279,20 @@ MonoBehaviour:
   strengthOnUse: 0
   durationOnUse: 0
   intervalOnUse: 0.05
+--- !u!114 &114465313120967252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1339400780425714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817f15b2a0426974bb4e88ef34aa22b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hideControllerOnTouch: 0
+  hideDelayOnTouch: 0
+  hideControllerOnGrab: 1
+  hideDelayOnGrab: 0
+  hideControllerOnUse: 0
+  hideDelayOnUse: 0

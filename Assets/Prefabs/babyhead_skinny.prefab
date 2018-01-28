@@ -28,7 +28,8 @@ GameObject:
   - component: {fileID: 114910000949043690}
   - component: {fileID: 114048747399899836}
   - component: {fileID: 114336990156594704}
-  m_Layer: 0
+  - component: {fileID: 114574740152067828}
+  m_Layer: 10
   m_Name: babyhead_skinny
   m_TagString: head
   m_Icon: {fileID: 0}
@@ -232,6 +233,23 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
       Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &114574740152067828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1571758166523352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817f15b2a0426974bb4e88ef34aa22b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hideControllerOnTouch: 0
+  hideDelayOnTouch: 0
+  hideControllerOnGrab: 1
+  hideDelayOnGrab: 0
+  hideControllerOnUse: 0
+  hideDelayOnUse: 0
 --- !u!114 &114750974696719858
 MonoBehaviour:
   m_ObjectHideFlags: 1

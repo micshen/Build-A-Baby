@@ -29,7 +29,8 @@ GameObject:
   - component: {fileID: 114255919105350608}
   - component: {fileID: 114704925201762692}
   - component: {fileID: 114588229930653696}
-  m_Layer: 0
+  - component: {fileID: 114750012263484324}
+  m_Layer: 10
   m_Name: babyarm_buff
   m_TagString: arm
   m_Icon: {fileID: 0}
@@ -231,6 +232,23 @@ MonoBehaviour:
   strengthOnUse: 0
   durationOnUse: 0
   intervalOnUse: 0.05
+--- !u!114 &114750012263484324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1522377117660558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817f15b2a0426974bb4e88ef34aa22b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hideControllerOnTouch: 0
+  hideDelayOnTouch: 0
+  hideControllerOnGrab: 1
+  hideDelayOnGrab: 0
+  hideControllerOnUse: 0
+  hideDelayOnUse: 0
 --- !u!114 &114764858103956410
 MonoBehaviour:
   m_ObjectHideFlags: 1

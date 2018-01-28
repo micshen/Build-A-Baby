@@ -29,7 +29,8 @@ GameObject:
   - component: {fileID: 114553839841810200}
   - component: {fileID: 114891989639744732}
   - component: {fileID: 114961826820832864}
-  m_Layer: 0
+  - component: {fileID: 114223480521685824}
+  m_Layer: 10
   m_Name: babyleg_skinny
   m_TagString: leg
   m_Icon: {fileID: 0}
@@ -136,6 +137,23 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114223480521685824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1338805827862312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817f15b2a0426974bb4e88ef34aa22b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hideControllerOnTouch: 0
+  hideDelayOnTouch: 0
+  hideControllerOnGrab: 1
+  hideDelayOnGrab: 0
+  hideControllerOnUse: 0
+  hideDelayOnUse: 0
 --- !u!114 &114372905629194058
 MonoBehaviour:
   m_ObjectHideFlags: 1
