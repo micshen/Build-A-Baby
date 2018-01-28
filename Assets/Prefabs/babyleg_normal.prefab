@@ -29,7 +29,8 @@ GameObject:
   - component: {fileID: 114620961504106850}
   - component: {fileID: 114107853730255026}
   - component: {fileID: 114011587885621304}
-  m_Layer: 0
+  - component: {fileID: 114479985118080224}
+  m_Layer: 10
   m_Name: babyleg_normal
   m_TagString: leg
   m_Icon: {fileID: 0}
@@ -237,6 +238,23 @@ MonoBehaviour:
   throwVelocityWithAttachDistance: 0
   throwMultiplier: 1
   onGrabCollisionDelay: 0
+--- !u!114 &114479985118080224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512340273375740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817f15b2a0426974bb4e88ef34aa22b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hideControllerOnTouch: 0
+  hideDelayOnTouch: 0
+  hideControllerOnGrab: 1
+  hideDelayOnGrab: 0
+  hideControllerOnUse: 0
+  hideDelayOnUse: 0
 --- !u!114 &114592774667736858
 MonoBehaviour:
   m_ObjectHideFlags: 1

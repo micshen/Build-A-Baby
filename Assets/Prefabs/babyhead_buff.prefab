@@ -28,7 +28,8 @@ GameObject:
   - component: {fileID: 114884023011628560}
   - component: {fileID: 114220150860399336}
   - component: {fileID: 114718379690087530}
-  m_Layer: 0
+  - component: {fileID: 114928381778202586}
+  m_Layer: 10
   m_Name: babyhead_buff
   m_TagString: head
   m_Icon: {fileID: 0}
@@ -260,3 +261,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18055ba762aa3994f9c10208cd088bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114928381778202586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1204083489777742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817f15b2a0426974bb4e88ef34aa22b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hideControllerOnTouch: 0
+  hideDelayOnTouch: 0
+  hideControllerOnGrab: 1
+  hideDelayOnGrab: 0
+  hideControllerOnUse: 0
+  hideDelayOnUse: 0

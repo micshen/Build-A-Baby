@@ -29,7 +29,8 @@ GameObject:
   - component: {fileID: 114399332540368382}
   - component: {fileID: 114422788819048842}
   - component: {fileID: 114182822997268546}
-  m_Layer: 0
+  - component: {fileID: 114962864601725682}
+  m_Layer: 10
   m_Name: babyarm_normal
   m_TagString: arm
   m_Icon: {fileID: 0}
@@ -278,3 +279,20 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
+--- !u!114 &114962864601725682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1518697874570038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817f15b2a0426974bb4e88ef34aa22b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hideControllerOnTouch: 0
+  hideDelayOnTouch: 0
+  hideControllerOnGrab: 1
+  hideDelayOnGrab: 0
+  hideControllerOnUse: 0
+  hideDelayOnUse: 0

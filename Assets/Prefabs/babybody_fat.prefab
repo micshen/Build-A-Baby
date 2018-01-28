@@ -29,7 +29,8 @@ GameObject:
   - component: {fileID: 114160318155061902}
   - component: {fileID: 114132239144601302}
   - component: {fileID: 114863399460705444}
-  m_Layer: 0
+  - component: {fileID: 114005995252573676}
+  m_Layer: 10
   m_Name: babybody_fat
   m_TagString: body
   m_Icon: {fileID: 0}
@@ -134,6 +135,23 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114005995252573676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1336252054495992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817f15b2a0426974bb4e88ef34aa22b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hideControllerOnTouch: 0
+  hideDelayOnTouch: 0
+  hideControllerOnGrab: 1
+  hideDelayOnGrab: 0
+  hideControllerOnUse: 0
+  hideDelayOnUse: 0
 --- !u!114 &114132239144601302
 MonoBehaviour:
   m_ObjectHideFlags: 1
