@@ -10,6 +10,8 @@ TagManager:
   - head
   - brain
   - hair
+  - teeth
+  - eye
   layers:
   - Default
   - TransparentFX
