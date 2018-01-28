@@ -15,11 +15,12 @@ namespace Baby
 
         public event DetachHandler OnDetach;
 
-        public delegate void SubmitBabyHandler(List<BabyProperty> babyProperties);
 
-        public event SubmitBabyHandler OnSubmitBaby; 
+
+       
+
     }
 
-   
+
 
 }

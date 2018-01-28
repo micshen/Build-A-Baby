@@ -17,6 +17,5 @@ namespace Baby
 
         public TextMeshProUGUI DisplayText; 
 
-
 	}
 }

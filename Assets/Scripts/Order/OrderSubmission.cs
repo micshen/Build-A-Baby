@@ -12,16 +12,16 @@ public class OrderSubmission : MonoBehaviour {
     public int Score; 
 
 	// Use this for initialization
-	void Start ()
+	void Awake()
     {
-        orderGenerator = FindObjectOfType<OrderGenerator>(); 
-
-        baby.BabyEvents.OnSubmitBaby += CompareToActiveOrders; 
+        orderGenerator = FindObjectOfType<OrderGenerator>();
+        GetActiveBaby(FindObjectOfType<MockBaby>()); 
 	}
 
     //this will most likely have to be some sort of collider check, to get this baby 
     public Baby.Baby GetActiveBaby(Baby.Baby baby)
     {
+        baby.OnSubmitBaby += CompareToActiveOrders; 
         return baby;
     }
 
@@ -36,7 +36,8 @@ public class OrderSubmission : MonoBehaviour {
                 {
                     foreach (var babyProperty in babyProperties)
                     {
-                        if (orderBabyProperty.DisplayText == babyProperty.DisplayText)
+                        Debug.Log("baby property name: " + babyProperty.PropertyName + " orderBabyProperty: " + orderBabyProperty.PropertyName); 
+                        if (orderBabyProperty.PropertyName == babyProperty.PropertyName)
                         {
                             Score += 100; 
                         }
