@@ -96,6 +96,7 @@ public class OrderGenerator : MonoBehaviour
         for (int i = 0; i < OrdersPerRound; i++)
         {
             var order = Instantiate(Resources.Load<Order>("UI/OrderPanel"));
+            order.name = "Order " + i; 
             foreach (var option in optionsForRound)
             {
                 order.gameObject.transform.SetParent(transform, false);

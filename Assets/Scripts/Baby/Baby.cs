@@ -12,10 +12,12 @@ namespace Baby
 
         public int TotalScore;
 
+        public BabyEvents BabyEvents = new BabyEvents(); 
 
         public void Start()
         {
-            BabyProperties = new List<BabyProperty>();            
+            BabyProperties = new List<BabyProperty>();  
+            
         }
 
 
