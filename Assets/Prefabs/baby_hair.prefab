@@ -29,6 +29,8 @@ GameObject:
   - component: {fileID: 114787097398188672}
   - component: {fileID: 114757338830448370}
   - component: {fileID: 114913091038008322}
+  - component: {fileID: 114354415918549032}
+  - component: {fileID: 114542967555424668}
   m_Layer: 0
   m_Name: baby_hair
   m_TagString: hair
@@ -183,6 +185,37 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
+--- !u!114 &114354415918549032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1664491154617526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817f15b2a0426974bb4e88ef34aa22b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hideControllerOnTouch: 0
+  hideDelayOnTouch: 0
+  hideControllerOnGrab: 1
+  hideDelayOnGrab: 0
+  hideControllerOnUse: 0
+  hideDelayOnUse: 0
+--- !u!114 &114542967555424668
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1664491154617526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c4e4042bd48442694d5e36918f37a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PropertyName: Hair
+  IsAttached: 0
+  DisplayText: {fileID: 0}
 --- !u!114 &114757338830448370
 MonoBehaviour:
   m_ObjectHideFlags: 1

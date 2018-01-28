@@ -31,6 +31,7 @@ GameObject:
   - component: {fileID: 114052273269192996}
   - component: {fileID: 114592903478530728}
   - component: {fileID: 114004794563155748}
+
   m_Layer: 10
   m_Name: babybody_deformed
   m_TagString: body
@@ -1054,6 +1055,20 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
+--- !u!114 &114465097303663938
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1948313071552080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c4e4042bd48442694d5e36918f37a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PropertyName: Deformed Body
+  IsAttached: 0
+  DisplayText: {fileID: 0}
 --- !u!114 &114476119633261136
 MonoBehaviour:
   m_ObjectHideFlags: 1

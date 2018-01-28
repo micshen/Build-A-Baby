@@ -30,6 +30,7 @@ GameObject:
   - component: {fileID: 114600388844418612}
   - component: {fileID: 114347419750853938}
   - component: {fileID: 114273350835212742}
+  - component: {fileID: 114424236085939334}
   m_Layer: 0
   m_Name: baby_eye
   m_TagString: eye
@@ -266,6 +267,20 @@ MonoBehaviour:
   strengthOnUse: 0
   durationOnUse: 0
   intervalOnUse: 0.05
+--- !u!114 &114424236085939334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317510015921072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c4e4042bd48442694d5e36918f37a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PropertyName: Eye
+  IsAttached: 0
+  DisplayText: {fileID: 0}
 --- !u!114 &114600388844418612
 MonoBehaviour:
   m_ObjectHideFlags: 1
