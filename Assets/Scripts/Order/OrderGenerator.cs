@@ -13,7 +13,6 @@ public class OrderGenerator : MonoBehaviour
 
     public int OrdersPerRound = 5;
     public int PropertiesPerLevel = 2;
-    public int MaxNumberOfProperties = 5; 
 
     public IList<Order> Orders;
 
@@ -23,9 +22,12 @@ public class OrderGenerator : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        PopulateOptions(); 
-        GetRoundOptions();
-        SetOrders(); 
+        PopulateOptions();
+        GetRoundOptions(); 
+        SetOrders();
+        StartCoroutine(OrderTimer());
+        StartCoroutine(RoundTimer()); 
+
     }
 
     // Update is called once per frame
@@ -34,23 +36,30 @@ public class OrderGenerator : MonoBehaviour
 
     }
 
-    private IEnumerator ManageOrdersPerRound()
+    private IEnumerator OrderTimer()
     {
-        var totalOrderTime = 0f;
         foreach (var order in Orders)
         {
             DisplayOrder(order);
-            totalOrderTime += TimePerOrder - OrderInterval; 
             StartCoroutine(order.DoOrderTimer(TimePerOrder)); 
             yield return new WaitForSeconds(OrderInterval);
-
         }
 
-        yield return new WaitForSeconds(totalOrderTime); 
+    }
+
+    private IEnumerator RoundTimer()
+    {
+        yield return new WaitForSeconds((Orders.Count * TimePerOrder) - (Orders.Count * OrderInterval));
+
+        if (PropertiesPerLevel < totalOptions.Count)
+            PropertiesPerLevel++;
         GetRoundOptions();
         SetOrders();
-        StartCoroutine(ManageOrdersPerRound()); 
+
+        StartCoroutine(OrderTimer());
+        StartCoroutine(RoundTimer());
     }
+
 
     private void DisplayOrder(Order order)
     {
@@ -76,13 +85,8 @@ public class OrderGenerator : MonoBehaviour
 
         for (int i = 0; i < PropertiesPerLevel; i++)
         {
-            var randomOption = GetRandomOption();
-            if (!optionsForRound.Contains(randomOption))
-                optionsForRound.Add(randomOption);
+            optionsForRound.Add(totalOptions[i]);
         }
-
-        if(PropertiesPerLevel <= MaxNumberOfProperties)
-            PropertiesPerLevel++;
     }
 
     private void SetOrders()
@@ -102,7 +106,6 @@ public class OrderGenerator : MonoBehaviour
             Orders.Add(order);
         }
 
-        StartCoroutine(ManageOrdersPerRound());
     }
 
 }
