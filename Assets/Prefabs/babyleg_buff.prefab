@@ -32,6 +32,7 @@ GameObject:
   - component: {fileID: 114306260261436684}
   - component: {fileID: 114400734496735308}
   - component: {fileID: 114240998637566958}
+  - component: {fileID: 114992172629720252}
   m_Layer: 10
   m_Name: babyleg_buff
   m_TagString: leg
@@ -1029,7 +1030,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114638471476076094
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1111,3 +1112,16 @@ MonoBehaviour:
   useOverrideButton: 0
   allowedUseControllers: 0
   usingState: 0
+--- !u!114 &114992172629720252
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1235857288549320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 845409985, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114400734496735308}

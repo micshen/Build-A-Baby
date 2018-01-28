@@ -33,6 +33,7 @@ GameObject:
   - component: {fileID: 114391928493654786}
   - component: {fileID: 114432101538467396}
   - component: {fileID: 114652901954895964}
+  - component: {fileID: 114554774867012622}
   m_Layer: 10
   m_Name: babyleg_deformed
   m_TagString: leg
@@ -1002,7 +1003,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114487833512202244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1064,6 +1065,19 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: VRTK.UnityEventHelper.VRTK_InteractableObject_UnityEvents+InteractableObjectEvent,
       Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!114 &114554774867012622
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1388683148403098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 845409985, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 114432101538467396}
 --- !u!114 &114562523345321056
 MonoBehaviour:
   m_ObjectHideFlags: 1
