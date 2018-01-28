@@ -15,10 +15,7 @@ public class OrderGenerator : MonoBehaviour
     public int PropertiesPerLevel = 2;
     public int MaxNumberOfProperties = 5; 
 
-    //put orders in child of OrderGenerator Canvas Object
     public IList<Order> Orders;
-
-    private BodyOption bodyOption;
 
     private IList<IOption> optionsForRound;
 
@@ -70,10 +67,7 @@ public class OrderGenerator : MonoBehaviour
 
     private void PopulateOptions()
     {
-        totalOptions = new List<IOption>();
-        bodyOption = GetComponent<BodyOption>(); 
-        var anotherBodyOption = GetComponent<BodyOption>();
-        totalOptions.Add(bodyOption);
+        totalOptions = GetComponentsInChildren<IOption>();
     }
 
     private void GetRoundOptions()
